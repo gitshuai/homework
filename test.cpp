@@ -14,8 +14,10 @@ void myprint(const Type& arg, const Types&... args)
 		myprint(args...);
 	}
 }
+
 int main()
 {
+	cout<<"first cpp file:"<<endl;
 	bToprint = true;
 	cout<<"hello, world!"<<endl;
 	myprint("shuaiguo", 12.5);
